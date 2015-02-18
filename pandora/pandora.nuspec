@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>pandora</id>
+    <title>pandora (Install)</title>
+    <version>2.0.9</version>
+    <authors>Pandora</authors>
+    <owners>Jonathan Leaders</owners>
+    <summary>Pandora desktop music player via Adobe Air</summary>
+    <description>Listen to your favorite music over Pandora. Requires a Pandora account. 
+    </description>
+    <projectUrl>https://github.com/jleaders/choco-packages</projectUrl>
+    <tags>pandora admin</tags>
+    <copyright>Pandora</copyright>
+    <licenseUrl>http://pandora.com/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/pandora.png</iconUrl>-->
+    <dependencies>
+      <!--<dependency id="" version="__VERSION__" />-->
+      <dependency id="adobeair" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

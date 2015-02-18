@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>skype.desktop</id>
+    <title>skype.desktop (Install)</title>
+    <version>7.1.0</version>
+    <authors>Microsoft</authors>
+    <owners>Jonathan Leaders</owners>
+    <summary>Windows Desktop version (as opposed to Windows 8 app) of popular voice/video/messaging application.</summary>
+    <description>Call your friends from your computer. 
+    </description>
+    <projectUrl>http://github.com/jleaders/choco-packages</projectUrl>
+    <tags>skype.desktop skype desktop window admin</tags>
+    <copyright>Copright (C) Microsoft 2015</copyright>
+    <licenseUrl>http://www.skype.com/go/tou</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/skype.desktop.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
