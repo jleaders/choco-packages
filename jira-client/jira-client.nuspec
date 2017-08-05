@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>jira-client</id>
+    <title>jira-client (Install)</title>
+    <version>3.6.2</version>
+    <authors>Alm Works</authors>
+    <owners>Jonathan Leaders</owners>
+    <summary>Offline JIRA Client</summary>
+    <description>Access your JIRA Issue Tracker offline.
+    </description>
+    <projectUrl>http://github.com/jleaders/choco-packages</projectUrl>
+    <tags>jira-client admin jira atlassian</tags>
+    <copyright></copyright>
+    <licenseUrl>http://almworks.com/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/jira-client.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
